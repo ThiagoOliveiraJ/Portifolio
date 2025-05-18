@@ -1,7 +1,53 @@
 {
     "role": "Front End Developer",
-    "intro": "Hello, my name is Thiago Oliveira, I am 19 years old and passionate about technology. I graduated in Full Stack development through the Full Stack React and Node training program, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-white hover:cursor-pointer'>Programadores do Amanhã</a>. Currently, I am studying Systems Analysis and Development at <a href='https://www.pucminas.br' target='_blank' class='text-white hover:cursor-pointer'>PUC Minas</a>.",
-    "technologies_title": "My Technologies",
-    "academic_title": "Academic Formation",
+    "intro": "Hello, my name is Thiago Oliveira, I am 19 years old and passionate about technology. I graduated in Full Stack development through the Full Stack React and Node training program, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>Programadores do Amanhã</a>. Currently, I am studying Systems Analysis and Development at <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
+    "technologiesTitle": "My Technologies",
+    "projetctsTitle": "My Projects",
+    "academicTitle": "Academic Formation",
+    "academic_items": [
+        {
+            "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
+            "urlImg": "./src/assets/img/logo_puc.png",
+            "collegeName": "Puc Minas",
+            "courseName": "Systems Analysis and Development",
+            "status": "Studying",
+            "graduationDate": "2025-02-18 - 2027-08-18",
+            "description": "I am currently studying Systems Analysis and Development at PUC Minas, where I am deepening my knowledge in programming logic, data structures, web development, databases, and software engineering.\nThe program combines theory and practice, preparing me to work critically and innovatively in the technology sector, with a focus on efficient solutions aligned with market demands."
+        },
+        {
+            "linkImg": "https://programadoresdoamanha.org.br/pt",
+            "urlImg": "./src/assets/img/logo_pda.jpeg",
+            "collegeName": "Programadores do Amanhã",
+            "courseName": "FullStack Web Development",
+            "status": "Completed",
+            "graduationDate": "2023-10-20 - 2024-10-20",
+            "description": "I completed the Full Stack Web Development course, lasting one year with 720 hours. During the course, I developed technical skills in front-end and back-end programming, as well as improving my English and soft skills like communication, teamwork, and problem solving. This training prepared me to work comprehensively in web application development, combining technical knowledge and interpersonal skills essential for the tech market."
+        },
+        {
+            "linkImg": "https://sistemadivinaprovidencia.org/",
+            "urlImg": "./src/assets/img/logo_SDP.jpeg",
+            "collegeName": "Cetaí Santo André Apóstolo",
+            "courseName": "Robotics",
+            "status": "Completed",
+            "graduationDate": "2019-02-02 - 2024-07-12",
+            "description": "I began my programming journey through a Robotics course, where I learned the fundamentals of robotics and developed practical skills in Python and C++. This initial exposure to programming logic and the integration between hardware and software was essential in solidifying my interest in the technology and development field."
+        }
+    ],
+    "project_items":[
+        {
+          "projectName": "Mental Wellness",
+          "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
+          "description": "A web application focused on physical and mental well-being, using React and Vite to create a dynamic and responsive interface. The application consumes my API, built with Node.js and Express, which provides real-time tips. Additionally, I used Splide JS to create smooth navigation carousels and Axios to handle HTTP requests integration.",
+          "tags":["React", "Express", "Node"],
+          "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.vercel.app/"]
+        },
+        {
+          "projectName": "Weather forecast",
+          "urlImg":"./src/assets/img/previsao_do_tempo_thumb.jpeg",
+          "description": "A web application focused on providing weather forecasts based on the city name. The application consumes the GoWeather weather forecast API, returning temperature and wind speed.",
+          "tags":["HTML5", "CSS3", "Jquery"],
+          "linksBtns":["https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo", "https://fascinating-donut-3c31ea.netlify.app/"]
+        }
+      ], 
     "footer_dev": "Developed by"
 }

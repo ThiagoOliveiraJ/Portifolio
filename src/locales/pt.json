@@ -1,8 +1,53 @@
 {
-    "role": "Desenvolvedor Front End",
-    "intro": "Olá, me chamo Thiago Oliveira, tenho 19 anos e sou apaixonado por tecnologia. Me formei de desenvolvimento Full Stack. Através do Programa de formação Full Stack React e Node, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-white hover:cursor-pointer'>Programadores do Amanhã</a>. E atualmente curso Análise e Desenvolvimento de Sistemas na <a href='https://www.pucminas.br' target='_blank' class='text-white hover:cursor-pointer'>PUC Minas</a>.",
-    "technologies_title": "Minhas Tecnologias",
-    "academic_title": "Formações Acadêmicas",
-    "footer_dev": "Desenvolvido por"
-  }
-  
+  "role": "Desenvolvedor Front End",
+  "intro": "Olá, meu nome é Thiago Oliveira, tenho 19 anos e sou apaixonado por tecnologia. Sou formado em desenvolvimento Full Stack pelo programa de formação Full Stack React e Node, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-[white] hover:cursor-pointer'>Programadores do Amanhã</a>. Atualmente, curso Análise e Desenvolvimento de Sistemas na <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
+  "technologiesTitle": "Minhas Tecnologias",
+  "projetctsTitle": "Meus Projetos",
+  "academicTitle": "Formações Acadêmicas",
+  "academic_items": [
+    {
+      "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
+      "urlImg": "./src/assets/img/logo_puc.png",
+      "collegeName": "Puc Minas",
+      "courseName": "Análise e Desenvolvimento de Sistemas",
+      "status": "Cursando",
+      "graduationDate": "2025-02-18 - 2027-08-18",
+      "description": "Atualmente, curso Análise e Desenvolvimento de Sistemas na PUC Minas, onde estou aprofundando meus conhecimentos em lógica de programação, estruturas de dados, desenvolvimento web, banco de dados e engenharia de software. A formação combina teoria e prática, preparando-me para atuar de forma crítica e inovadora no setor de tecnologia, com foco em soluções eficientes e alinhadas às demandas do mercado."
+    },
+    {
+      "linkImg": "https://programadoresdoamanha.org.br/pt",
+      "urlImg": "./src/assets/img/logo_pda.jpeg",
+      "collegeName": "Programadores do Amanhã",
+      "courseName": "Desenvolvimento Web FullStack",
+      "status": "Concluido",
+      "graduationDate": "2023-10-20 - 2024-10-20",
+      "description": "Completei o curso de Desenvolvimento Web Full Stack, com duração de 1 ano e carga horária de 720 horas. Durante o curso, desenvolvi habilidades técnicas em programação front-end e back-end, além de aprimorar meu inglês e soft skills, como comunicação, trabalho em equipe e resolução de problemas. Essa formação me preparou para atuar de forma completa no desenvolvimento de aplicações web, unindo conhecimentos técnicos e competências interpessoais essenciais para o mercado de tecnologia."
+    },
+    {
+      "linkImg": "https://sistemadivinaprovidencia.org/",
+      "urlImg": "./src/assets/img/logo_SDP.jpeg",
+      "collegeName": "Cetaí Santo André Apóstolo",
+      "courseName": "Robotica",
+      "status": "Concluido",
+      "graduationDate": "2019-02-02 - 2024-07-12",
+      "description": "Iniciei minha trajetória em programação através do curso de Robótica, onde aprendi os fundamentos de robótica e desenvolvi habilidades práticas em Python e C++. Esse primeiro contato com lógica de programação e a integração entre hardware e software foi essencial para consolidar meu interesse na área de tecnologia e desenvolvimento."
+    }
+  ],
+  "project_items":[
+    {
+      "projectName": "Mente Saudável",
+      "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
+      "description": "Aplicação web voltada para o bem-estar físico e mental, utilizando React e Vite para criar uma interface dinâmica e responsiva. A aplicação consome minha API, construída com Node.js e Express, que fornece dicas em tempo real. Além disso, utilizei Splide JS para criar carrosséis de navegação suave e Axios para integrar as requisições HTTP.",
+      "tags":["React", "Express", "Node"],
+      "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.vercel.app/"]
+    },
+    {
+      "projectName": "Previsão do Tempo",
+      "urlImg":"./src/assets/img/previsao_do_tempo_thumb.jpeg",
+      "description": "Aplicação web voltada a fornecer previsões do tempo com base no nome da cidade.  A aplicação consome a API de previsão do tempo do GoWeather. retornando temperatura e velocidade do vento.",
+      "tags":["HTML5", "CSS3", "Jquery"],
+      "linksBtns":["https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo", "https://fascinating-donut-3c31ea.netlify.app/"]
+    }
+  ], 
+  "footer_dev": "Desenvolvido por"
+}
