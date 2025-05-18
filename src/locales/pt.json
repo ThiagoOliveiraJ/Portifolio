@@ -4,6 +4,7 @@
   "technologiesTitle": "Minhas Tecnologias",
   "projetctsTitle": "Meus Projetos",
   "academicTitle": "Formações Acadêmicas",
+  "hidden_text_items": ["Ver menos", "Ver mais"],
   "academic_items": [
     {
       "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",

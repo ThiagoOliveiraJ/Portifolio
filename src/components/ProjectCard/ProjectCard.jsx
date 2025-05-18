@@ -1,13 +1,17 @@
 import { useState } from 'react';
 
-export function ProjectCard({ projectName, urlImg, description, tags, linksBtns }) {
 
+export function ProjectCard({ projectName, urlImg, description, tags, linksBtns, t }) {
+    
+    
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleDescription = () => setIsExpanded(!isExpanded);
     const preview = description.slice(0, 100);
 
-
+    const hiddenText =  t("hidden_text_items", { returnObjects: true })
+    
+  
     return (
         <div className="w-xs max-h-[28rem] border-1 text-[#1C243A] border-[#1C243A]/30 dark:border-white/30 dark:text-[white] p-3 flex flex-col gap-2 rounded-lg hover:translate-y-2 transition-all duration-400">
             <p className="font-semibold">{projectName}</p>
@@ -19,7 +23,7 @@ export function ProjectCard({ projectName, urlImg, description, tags, linksBtns 
                     onClick={toggleDescription}
                     className="text-[#1C243A] dark:text-[#cccc] underline text-xs ml-1 hover:text-[#ccc] hover:cursor-pointer"
                 >
-                    {isExpanded ? 'Ver menos' : 'Ver mais'}
+                    {isExpanded ? hiddenText[0] : hiddenText[1]}
                 </button>
             </p>
             <div className="flex items-start justify-center flex-col gap-3  ">
