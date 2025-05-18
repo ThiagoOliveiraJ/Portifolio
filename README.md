@@ -1,12 +1,76 @@
-# React + Vite
+# 🌐 Portfólio Pessoal – Thiago Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descrição
 
-Currently, two official plugins are available:
+Este repositório abriga meu portfólio pessoal como Desenvolvedor Front-end, com o objetivo de apresentar de forma clara, responsiva e visualmente atrativa meus projetos, habilidades, formações e formas de contato. A interface é moderna, conta com transições suaves, suporte a múltiplos idiomas, troca de tema (claro/escuro) e navegação fluida, proporcionando uma excelente experiência do usuário em diferentes dispositivos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🔄 Troca de tema (claro/escuro)
+- 🌍 Alternância de idioma (PT/EN)
+- 📂 Download de currículo em PDF
+- 🔗 Botões interativos para LinkedIn e GitHub
+- 🟢 Indicação de disponibilidade (Open to Work)
+- 🧠 Exibição de tecnologias com carrossel tipo "marquee" com pausa no hover
+- 💼 Lista de projetos com:
+  - Descrição individual
+  - Tags de tecnologias usadas
+  - Botão para o repositório
+  - Botão para visualização do projeto
+- 📚 Timeline de formações acadêmicas (faculdade e cursos)
+- 📥 Rodapé com informações de contato e créditos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologias Utilizadas
+
+- **React** – Criação da interface e componentes interativos  
+- **Vite** – Build e ambiente de desenvolvimento moderno  
+- **Tailwind CSS (T1)** – Estilização com utilitários CSS  
+- **React Bits** – Animações suaves com foco em performance  
+- **JavaScript (ES6+)** – Lógica e manipulação de dados  
+
+### 📦 Versões
+
+- **React 18**
+- **Vite 4**
+- **Tailwind CSS 3**
+- **React Bits (versão mais recente)**
+- **JavaScript ES6+**
+
+## ▶️ Demonstração
+
+Acesse a versão publicada do portfólio:  
+🔗 [euthiago.com](https://euthiago.com) 
+
+## 🧪 Como Rodar Localmente
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/ThiagoOliveiraJ/Portifolio.git
+cd Portifolio
+```
+
+## 2. Instale as dependências
+```bash
+npm install
+```
+
+## 3. Inicialize o projeto
+```bash
+npm dev run
+```
+
+## 📸 Preview do Projeto
+
+![Tela de Inicio](/miniprojetom5/src/assets/img/preview/image.png)
+![Outra Seção](/miniprojetom5/src/assets/img/preview/image2.png)
+![Outra Seção](/miniprojetom5/src/assets/img/preview/image3.png)
+![Mobile](/miniprojetom5/src/assets/img/preview/mobile.png)
+
+Para dúvidas ou feedback ou contato:
+
+- **Nome**: Thiago Oliveira
+- **Email**: contatothiagooliveira1@gmail.com
+- **Linkedin**: [Thiago Oliveira](https://www.linkedin.com/in/thiago-oliveira-631862248/)
+
+
