@@ -125,7 +125,7 @@ const Carousel = ({gradientColor}) => {
                     {itemsToLeft.map((item, index) => (
                         <span key={index} className="flex items-center gap-4 text-[#1C243A] dark:text-white">
                             {item.icon}
-                            <p className="text-4xl">{item.text}</p>
+                            <p className="text-3xl lg:text-4xl">{item.text}</p>
                         </span>
                     ))}
                 </div>
