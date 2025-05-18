@@ -40,7 +40,7 @@
           "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
           "description": "A web application focused on physical and mental well-being, using React and Vite to create a dynamic and responsive interface. The application consumes my API, built with Node.js and Express, which provides real-time tips. Additionally, I used Splide JS to create smooth navigation carousels and Axios to handle HTTP requests integration.",
           "tags":["React", "Express", "Node"],
-          "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.vercel.app/"]
+          "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.euthiago.com/"]
         },
         {
           "projectName": "Weather forecast",

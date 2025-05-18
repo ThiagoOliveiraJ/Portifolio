@@ -40,7 +40,7 @@
       "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
       "description": "Aplicação web voltada para o bem-estar físico e mental, utilizando React e Vite para criar uma interface dinâmica e responsiva. A aplicação consome minha API, construída com Node.js e Express, que fornece dicas em tempo real. Além disso, utilizei Splide JS para criar carrosséis de navegação suave e Axios para integrar as requisições HTTP.",
       "tags":["React", "Express", "Node"],
-      "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.vercel.app/"]
+      "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.euthiago.com/"]
     },
     {
       "projectName": "Previsão do Tempo",
