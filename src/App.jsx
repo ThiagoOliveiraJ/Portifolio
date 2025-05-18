@@ -56,7 +56,7 @@ function App() {
     <div className="bg-[#FFFFFF] dark:bg-[#0A0A0A] dark:text-[white]">
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
 
-      <main className='mx-auto w-[95%] h-screen flex flex-col justify-between lg:w-full lg:flex-row   2xl:max-w-6xl mx-auto'>
+      <main className='mx-auto w-[95%] h-screen flex flex-col justify-between  lg:flex-row 2xl:w-full  2xl:max-w-6xl mx-auto'>
         <div className='w-full mt-30  flex items-center flex-col justify-center lg:w-[50%]'>
           <div className='w-full flex flex-col items-start justify-center '>
             <h3 className='text-4xl font-semibold text-[#1C243A] dark:text-[white] md:text-6xl'>Thiago Oliveira</h3>
