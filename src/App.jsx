@@ -24,8 +24,8 @@ function App() {
   const academicItems = t("academic_items", { returnObjects: true });
 
   const projectItems = t("project_items", { returnObjects: true });
-  
-  
+
+
   const [gradientColor, setGradientColor] = useState('#0A0A0A')
   const [metaColor, setMetaColor] = useState("#ffffff");
 
@@ -38,34 +38,34 @@ function App() {
     const isCurrentlyDark = html.classList.contains("dark");
 
     if (isCurrentlyDark) {
-        html.classList.remove("dark");
-        setIsDarkMode(false);
-        setMetaColor("#1C243A");
-        setGradientColor("white")
+      html.classList.remove("dark");
+      setIsDarkMode(false);
+      setMetaColor("#1C243A");
+      setGradientColor("white")
     } else {
-        html.classList.add("dark");
-        setIsDarkMode(true);
-        setMetaColor("#ffffff"); 
-        setGradientColor("#0A0A0A")
-        
+      html.classList.add("dark");
+      setIsDarkMode(true);
+      setMetaColor("#ffffff");
+      setGradientColor("#0A0A0A")
+
     }
-};
- 
+  };
+
 
   return (
     <div className="bg-[#FFFFFF] dark:bg-[#0A0A0A] dark:text-[white]">
-      <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
+      <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
 
-      <main className='mx-auto w-full h-screen flex justify-between  2xl:max-w-6xl mx-auto'>
-        <div className='w-[50%] flex items-center flex-col justify-center'>
+      <main className='mx-auto w-[95%] h-screen flex flex-col justify-between lg:w-full lg:flex-row   2xl:max-w-6xl mx-auto'>
+        <div className='w-full mt-30  flex items-center flex-col justify-center lg:w-[50%]'>
           <div className='w-full flex flex-col items-start justify-center '>
-            <h3 className='text-6xl font-semibold text-[#1C243A] dark:text-[white]'>Thiago Oliveira</h3>
-            <h4 className='text-3xl text-[#1C243A] dark:text-[#cccc] ml-2 mt-3'>{t("role")}</h4>
+            <h3 className='text-4xl font-semibold text-[#1C243A] dark:text-[white] md:text-6xl'>Thiago Oliveira</h3>
+            <h4 className='text-xl text-[#1C243A] dark:text-[#cccc] lg:ml-2 mt-3'>{t("role")}</h4>
           </div>
           <div>
-            <p className='mt-5 ml-2 text-start text-[#0A0A0A] dark:text-[#cccc] text-base' dangerouslySetInnerHTML={{ __html: t("intro") }} />
+            <p className='mt-5  text-start text-[#0A0A0A] dark:text-[#cccc] text-base lg:ml-2' dangerouslySetInnerHTML={{ __html: t("intro") }} />
           </div>
-          <div className='w-full flex  justify-start items-center gap-5 mt-5 ml-2'>
+          <div className='w-full flex flex-wrap justify-start items-center gap-5 mt-5 lg:ml-2'>
             <a href='https://www.linkedin.com/in/thiagooliveiradev/' className=' flex flex-1 justify-center items-center gap-2 border-1 border-[#1C243A] dark:border-1 dark:border-[white] dark:text-[white] p-2 rounded-md dark:hover:text-[#ccc] hover:cursor-pointer hover-scale' target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
               <p className='mt-1 font-semibold'>Linkedin</p>
@@ -88,7 +88,7 @@ function App() {
             </span>
           </div>
         </div >
-        <div className='w-[50%] overflow-visible relative' >
+        <div className='w-full h-full overflow-visible relative lg:w-[50%]' >
           <div className='absolute inset-0'>
             <MetaBalls
               color={metaColor}
@@ -106,14 +106,15 @@ function App() {
         </div>
       </main >
 
-      <section className='mt-10 mb-20 2xl:max-w-6xl mx-auto' >
-        <h4 className='text-4xl font-bold my-10 text-[#1C243A] dark:text-[white] text-center'>{t("technologiesTitle")}</h4>
-        <Carousel gradientColor={gradientColor}/>
+      <section className='mt-10 mb-20 2xl:max-w-6xl mx-auto ' >
+        <h4 className='text-3xl font-bold my-10 text-[#1C243A] dark:text-[white] lg:text-4xl text-center'>{t("technologiesTitle")}</h4>
+        <Carousel gradientColor={gradientColor} />
       </section>
 
-      <section className=" my-40 2xl:max-w-6xl mx-auto">
-        <h4 className='text-4xl font-bold my-10 text-[#1C243A] dark:text-white text-start'>{t("projetctsTitle")}</h4>
-        <div className="flex gap-10">
+      <section className="w-[95%] flex flex-col items-center justify-center my-40  lg:items-start 2xl:max-w-6xl mx-auto">
+        <h4 className='text-3xl text-center font-bold my-10 text-[#1C243A] dark:text-white lg:text-4xl lg:text-start'>{t("projetctsTitle")}</h4>
+        <div className="flex justify-center items-center gap-5 flex-wrap ">
+
           {projectItems.map((item, index) => {
             return (
               <ProjectCard
@@ -123,14 +124,16 @@ function App() {
                 description={item.description}
                 tags={item.tags}
                 linksBtns={item.linksBtns}
+                t={t}
               />
             )
           })}
+
         </div>
       </section>
 
-      <section className=' mt-40 text-[#1C243A] dark:text-white 2xl:max-w-6xl mx-auto'>
-        <h4 className='text-4xl font-bold my-10  text-start'>{t("academicTitle")}</h4>
+      <section className='w-[95%] mt-40 text-[#1C243A] dark:text-white 2xl:w-full 2xl:max-w-6xl mx-auto'>
+        <h4 className='text-3xl text-center font-bold my-10  lg:text-start lg:text-4xl'>{t("academicTitle")}</h4>
         <div className='flex flex-col gap-y-12 mb-20'>
           {academicItems.map((item, index) => {
             return (
@@ -150,7 +153,7 @@ function App() {
       </section>
 
       <footer className='mt-40 border-t py-15 border-zinc-800'>
-        <div className='flex justify-between dark:text-[#ccc] text-[#515151] text-sm 2xl:max-w-6xl mx-auto'>
+        <div className='flex flex-col items-center lg:flex-row justify-between dark:text-[#ccc] text-[#515151] text-sm 2xl:max-w-6xl mx-auto'>
           <p>All rights reserved © 2025</p>
           <p>{t("footer_dev")} <a className='text-[#1C243A] dark:text-[#ffff] hover:cursor-pointer' href='https://www.linkedin.com/in/thiagooliveiradev/'>Thiago Oliveira</a></p>
         </div>
