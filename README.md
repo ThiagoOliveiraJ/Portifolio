@@ -62,10 +62,10 @@ npm dev run
 
 ## 📸 Preview do Projeto
 
-![Tela de Inicio](./portifolio/src/assets/img/preview/image.png)
-![Outra Seção](./portifolio/src/assets/img/preview/image2.png)
-![Outra Seção](./portifolio/src/assets/img/preview/image3.png)
-![Mobile](./portifolio/src/assets/img/preview/mobile.png)
+![Tela de Inicio](./src/assets/img/preview/image.png)
+![Outra Seção](./src/assets/img/preview/image2.png)
+![Outra Seção](./src/assets/img/preview/image3.png)
+![Mobile](./src/assets/img/preview/mobile.png)
 
 Para dúvidas ou feedback ou contato:
 
