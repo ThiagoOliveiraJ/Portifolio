@@ -1,54 +1,96 @@
 {
-    "role": "Front End Developer",
-    "intro": "Hello, my name is Thiago Oliveira, I am 19 years old and passionate about technology. I graduated in Full Stack development through the Full Stack React and Node training program, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>Programadores do Amanhã</a>. Currently, I am studying Systems Analysis and Development at <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
-    "technologiesTitle": "My Technologies",
-    "projetctsTitle": "My Projects",
-    "academicTitle": "Academic Formation",
-    "hidden_text_items": ["See less", "See more"],
-    "academic_items": [
-        {
-            "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
-            "urlImg": "./src/assets/img/logo_puc.png",
-            "collegeName": "Puc Minas",
-            "courseName": "Systems Analysis and Development",
-            "status": "Studying",
-            "graduationDate": "2025-02-18 - 2027-08-18",
-            "description": "I am currently studying Systems Analysis and Development at PUC Minas, where I am deepening my knowledge in programming logic, data structures, web development, databases, and software engineering.\nThe program combines theory and practice, preparing me to work critically and innovatively in the technology sector, with a focus on efficient solutions aligned with market demands."
-        },
-        {
-            "linkImg": "https://programadoresdoamanha.org.br/pt",
-            "urlImg": "./src/assets/img/logo_pda.jpeg",
-            "collegeName": "Programadores do Amanhã",
-            "courseName": "FullStack Web Development",
-            "status": "Completed",
-            "graduationDate": "2023-10-20 - 2024-10-20",
-            "description": "I completed the Full Stack Web Development course, lasting one year with 720 hours. During the course, I developed technical skills in front-end and back-end programming, as well as improving my English and soft skills like communication, teamwork, and problem solving. This training prepared me to work comprehensively in web application development, combining technical knowledge and interpersonal skills essential for the tech market."
-        },
-        {
-            "linkImg": "https://sistemadivinaprovidencia.org/",
-            "urlImg": "./src/assets/img/logo_SDP.jpeg",
-            "collegeName": "Cetaí Santo André Apóstolo",
-            "courseName": "Robotics",
-            "status": "Completed",
-            "graduationDate": "2019-02-02 - 2024-07-12",
-            "description": "I began my programming journey through a Robotics course, where I learned the fundamentals of robotics and developed practical skills in Python and C++. This initial exposure to programming logic and the integration between hardware and software was essential in solidifying my interest in the technology and development field."
-        }
-    ],
-    "project_items":[
-        {
-          "projectName": "Mental Wellness",
-          "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
-          "description": "A web application focused on physical and mental well-being, using React and Vite to create a dynamic and responsive interface. The application consumes my API, built with Node.js and Express, which provides real-time tips. Additionally, I used Splide JS to create smooth navigation carousels and Axios to handle HTTP requests integration.",
-          "tags":["React", "Express", "Node"],
-          "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.euthiago.com/"]
-        },
-        {
-          "projectName": "Weather forecast",
-          "urlImg":"./src/assets/img/previsao_do_tempo_thumb.jpeg",
-          "description": "A web application focused on providing weather forecasts based on the city name. The application consumes the GoWeather weather forecast API, returning temperature and wind speed.",
-          "tags":["HTML5", "CSS3", "Jquery"],
-          "linksBtns":["https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo", "https://fascinating-donut-3c31ea.netlify.app/"]
-        }
-      ], 
-    "footer_dev": "Developed by"
+  "role": "FullStack Developer",
+  "intro": "Hello, my name is Thiago Oliveira, I am 20 years old and passionate about technology. I graduated in Full Stack development through the Full Stack React and Node training program, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>Programadores do Amanhã</a>. Currently, I am studying Software Engineering at <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
+  "technologiesTitle": "My Technologies",
+  "projetctsTitle": "My Projects",
+  "academicTitle": "Academic Formation",
+  "experienceTitle": "Professional Experience",
+  "hidden_text_items": [
+    "See less",
+    "See more"
+  ],
+  "academic_items": [
+    {
+      "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
+      "urlImg": "./src/assets/img/logo_puc.png",
+      "collegeName": "Puc Minas",
+      "courseName": "Systems Analysis and Development",
+      "status": "Studying",
+      "graduationDate": "2025-02-18 - 2027-08-18",
+      "description": "I am currently studying Systems Analysis and Development at PUC Minas, where I am deepening my knowledge in programming logic, data structures, web development, databases, and software engineering.\nThe program combines theory and practice, preparing me to work critically and innovatively in the technology sector, with a focus on efficient solutions aligned with market demands."
+    },
+    {
+      "linkImg": "https://programadoresdoamanha.org.br/pt",
+      "urlImg": "./src/assets/img/logo_pda.jpeg",
+      "collegeName": "Programadores do Amanhã",
+      "courseName": "FullStack Web Development",
+      "status": "Completed",
+      "graduationDate": "2023-10-20 - 2024-10-20",
+      "description": "I completed the Full Stack Web Development course, lasting one year with 720 hours. During the course, I developed technical skills in front-end and back-end programming, as well as improving my English and soft skills like communication, teamwork, and problem solving. This training prepared me to work comprehensively in web application development, combining technical knowledge and interpersonal skills essential for the tech market."
+    },
+    {
+      "linkImg": "https://sistemadivinaprovidencia.org/",
+      "urlImg": "./src/assets/img/logo_SDP.jpeg",
+      "collegeName": "Cetaí Santo André Apóstolo",
+      "courseName": "Robotics",
+      "status": "Completed",
+      "graduationDate": "2019-02-02 - 2020-02-02",
+      "description": "I began my programming journey through a Robotics course, where I learned the fundamentals of robotics and developed practical skills in Python and C++. This initial exposure to programming logic and the integration between hardware and software was essential in solidifying my interest in the technology and development field."
+    }
+  ],
+  "experience_items": [
+    {
+      "linkImg": "https://remopt.com.br/pt/home",
+      "urlImg": "./src/assets/img/remopt_logo.jpeg",
+      "CorporationName": "Remopt",
+      "role": "Development internship",
+      "ExperienceDate": "2025-07-14 - Present",
+      "description": "I worked on developing web applications using React.js and Next.js on the front end, and Node.js and Python on the back end, building, consuming, and integrating REST APIs to improve process efficiency. I also collaborated on design and prototyping, implementing UI/UX improvements. Additionally, I have familiarity with Docker to streamline deployments, as well as experience with team collaboration through Git, GitHub, and GitLab."
+    }
+  ],
+  "project_items": [
+    {
+      "projectName": "Mental Wellness",
+      "urlImg": "./src/assets/img/mente_saudavel_thumb.jpeg",
+      "description": "A web application focused on physical and mental well-being, using React and Vite to create a dynamic and responsive interface. The application consumes my API, built with Node.js and Express, which provides real-time tips. Additionally, I used Splide JS to create smooth navigation carousels and Axios to handle HTTP requests integration.",
+      "tags": [
+        "React",
+        "Express",
+        "Node"
+      ],
+      "linksBtns": [
+        "https://github.com/ThiagoOliveiraJ/MenteSaudavel",
+        "https://mente-saudavel.euthiago.com/"
+      ]
+    },
+    {
+      "projectName": "Weather forecast",
+      "urlImg": "./src/assets/img/previsao_do_tempo_thumb.jpeg",
+      "description": "A web application focused on providing weather forecasts based on the city name. The application consumes the GoWeather weather forecast API, returning temperature and wind speed.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Jquery"
+      ],
+      "linksBtns": [
+        "https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo",
+        "https://fascinating-donut-3c31ea.netlify.app/"
+      ]
+    },
+    {
+      "projectName": "Landing Page DLCE Engenharia",
+      "urlImg": "./src/assets/img/PREVIEW_DLCE-11-30-2025_11_49_AM.png",
+      "description": "Freelance responsive landing page using HTML, CSS, and JavaScript. I focused on performance, usability, and adaptation for multiple devices. I maintained direct communication with the client for requirements gathering and delivery validation. As a result, the company recorded an estimated 67% increase in organic conversions after the new landing page was published, due to better visual structure and navigability.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "linksBtns": [
+        "",
+        "https://dlce.com.br/"
+      ]
+    }
+  ],
+  "footer_dev": "Developed by"
 }

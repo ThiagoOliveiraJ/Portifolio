@@ -11,6 +11,7 @@ import MetaBalls from './components/MetalBalls/MetalBalls';
 
 import { AcademicItem } from './components/AcademicItem/AcademicItem';
 import { ProjectCard } from "./components/ProjectCard/ProjectCard";
+import { ExperienceItem } from "./components/ExperienceItem/ExperienceItem";
 
 import { Linkedin } from 'lucide-react'
 
@@ -24,7 +25,7 @@ function App() {
   const academicItems = t("academic_items", { returnObjects: true });
 
   const projectItems = t("project_items", { returnObjects: true });
-
+  const experienceItems = t("experience_items", { returnObjects: true });
 
   const [gradientColor, setGradientColor] = useState('#0A0A0A')
   const [metaColor, setMetaColor] = useState("#ffffff");
@@ -132,6 +133,26 @@ function App() {
         </div>
       </section>
 
+      <section className='w-[95%] mt-40 text-[#1C243A] dark:text-white 2xl:w-full 2xl:max-w-6xl mx-auto'>
+        <h4 className='text-3xl text-center font-bold my-10  lg:text-start lg:text-4xl'>{t("experienceTitle")}</h4>
+        <div className='flex flex-col gap-y-12 mb-20'>
+          {experienceItems.map((item, index) => {
+            return (
+              <ExperienceItem
+                key={index}
+                linkImg={item.linkImg}
+                urlImg={item.urlImg}
+                CorporationName={item.CorporationName}
+                role={item.role}
+                status={item.status}
+                ExperienceDate={item.ExperienceDate}
+                description={item.description}
+              />
+            );
+          })}
+        </div>
+      </section>
+      
       <section className='w-[95%] mt-40 text-[#1C243A] dark:text-white 2xl:w-full 2xl:max-w-6xl mx-auto'>
         <h4 className='text-3xl text-center font-bold my-10  lg:text-start lg:text-4xl'>{t("academicTitle")}</h4>
         <div className='flex flex-col gap-y-12 mb-20'>

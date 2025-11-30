@@ -1,9 +1,10 @@
 {
-  "role": "Desenvolvedor Front End",
-  "intro": "Olá, meu nome é Thiago Oliveira, tenho 19 anos e sou apaixonado por tecnologia. Sou formado em desenvolvimento Full Stack pelo programa de formação Full Stack React e Node, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-[white] hover:cursor-pointer'>Programadores do Amanhã</a>. Atualmente, curso Análise e Desenvolvimento de Sistemas na <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
+  "role": "Desenvolvedor FullStack",
+  "intro": "Olá, meu nome é Thiago Oliveira, tenho 20 anos e sou apaixonado por tecnologia. Sou formado em desenvolvimento Full Stack pelo programa de formação Full Stack React e Node, <a href='https://programadoresdoamanha.org.br/' target='_blank' class='text-[#1C243A] dark:text-[white] hover:cursor-pointer'>Programadores do Amanhã</a>. Atualmente, curso Engenharia de Software na <a href='https://www.pucminas.br' target='_blank' class='text-[#1C243A] dark:text-white hover:cursor-pointer'>PUC Minas</a>.",
   "technologiesTitle": "Minhas Tecnologias",
   "projetctsTitle": "Meus Projetos",
   "academicTitle": "Formações Acadêmicas",
+  "experienceTitle": "Experiências Profissionais",
   "hidden_text_items": ["Ver menos", "Ver mais"],
   "academic_items": [
     {
@@ -20,8 +21,7 @@
       "urlImg": "./src/assets/img/logo_pda.jpeg",
       "collegeName": "Programadores do Amanhã",
       "courseName": "Desenvolvimento Web FullStack",
-      "status": "Concluido",
-      "graduationDate": "2023-10-20 - 2024-10-20",
+      "graduationDate": "2025-07-14 - 2027-08-18",
       "description": "Completei o curso de Desenvolvimento Web Full Stack, com duração de 1 ano e carga horária de 720 horas. Durante o curso, desenvolvi habilidades técnicas em programação front-end e back-end, além de aprimorar meu inglês e soft skills, como comunicação, trabalho em equipe e resolução de problemas. Essa formação me preparou para atuar de forma completa no desenvolvimento de aplicações web, unindo conhecimentos técnicos e competências interpessoais essenciais para o mercado de tecnologia."
     },
     {
@@ -30,10 +30,20 @@
       "collegeName": "Cetaí Santo André Apóstolo",
       "courseName": "Robotica",
       "status": "Concluido",
-      "graduationDate": "2019-02-02 - 2024-07-12",
+      "graduationDate": "2019-02-02 - 2020-02-02",
       "description": "Iniciei minha trajetória em programação através do curso de Robótica, onde aprendi os fundamentos de robótica e desenvolvi habilidades práticas em Python e C++. Esse primeiro contato com lógica de programação e a integração entre hardware e software foi essencial para consolidar meu interesse na área de tecnologia e desenvolvimento."
     }
   ],
+  "experience_items": [
+        {
+            "linkImg": "https://remopt.com.br/pt/home",
+            "urlImg": "./src/assets/img/remopt_logo.jpeg",
+            "CorporationName": "Remopt",
+            "role": "Estágio de Desenvolvimento",
+            "ExperienceDate": "2025-02-18 - O Momento",
+            "description": "Atuei no desenvolvimento de aplicações web com React.js, next no front-end e Node.js e Python de back-end construindo, consumindo e integrando APIs REST. aumentando a eficiência de processos. Colaborei também na criação design e protótipos colocando em prática melhorias de UI/UX, familiaridade com Docker para facilitar deploys e colaboração de projetos em equipe através de Git, GitHub e GitLab."
+        }
+    ],
   "project_items":[
     {
       "projectName": "Mente Saudável",
@@ -48,6 +58,13 @@
       "description": "Aplicação web voltada a fornecer previsões do tempo com base no nome da cidade.  A aplicação consome a API de previsão do tempo do GoWeather. retornando temperatura e velocidade do vento.",
       "tags":["HTML5", "CSS3", "Jquery"],
       "linksBtns":["https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo", "https://fascinating-donut-3c31ea.netlify.app/"]
+    },
+    {
+      "projectName": "Landing Page DLCE Engenharia",
+      "urlImg":"./src/assets/img/PREVIEW_DLCE-11-30-2025_11_49_AM.png",
+      "description": "Freelance landing page responsiva utilizando HTML, CSS e JavaScript. Foquei em performance, usabilidade e adaptação para múltiplos dispositivos. Mantive comunicação direta com o cliente para levantamento de requisitos e validação das entregas. Como resultado, a empresa registrou um aumento estimado de 67% nas conversões orgânicas após a publicação da nova landing page, devido à melhor estrutura visual e navegabilidade.",
+      "tags":["HTML5", "CSS3", "JavaScript"],
+      "linksBtns":["", "https://dlce.com.br/"]
     }
   ], 
   "footer_dev": "Desenvolvido por"
