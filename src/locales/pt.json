@@ -9,7 +9,7 @@
   "academic_items": [
     {
       "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
-      "urlImg": "./src/assets/img/logo_puc.png",
+      "urlImg": "public/img/logo_puc.png",
       "collegeName": "Puc Minas",
       "courseName": "Análise e Desenvolvimento de Sistemas",
       "status": "Cursando",
@@ -18,7 +18,7 @@
     },
     {
       "linkImg": "https://programadoresdoamanha.org.br/pt",
-      "urlImg": "./src/assets/img/logo_pda.jpeg",
+      "urlImg": "public/img/logo_pda.jpeg",
       "collegeName": "Programadores do Amanhã",
       "courseName": "Desenvolvimento Web FullStack",
       "graduationDate": "2025-07-14 - 2027-08-18",
@@ -26,10 +26,10 @@
     },
     {
       "linkImg": "https://sistemadivinaprovidencia.org/",
-      "urlImg": "./src/assets/img/logo_SDP.jpeg",
+      "urlImg": "public/img/logo_SDP.jpeg",
       "collegeName": "Cetaí Santo André Apóstolo",
-      "courseName": "Robotica",
-      "status": "Concluido",
+      "courseName": "Robótica",
+      "status": "Concluído",
       "graduationDate": "2019-02-02 - 2020-02-02",
       "description": "Iniciei minha trajetória em programação através do curso de Robótica, onde aprendi os fundamentos de robótica e desenvolvi habilidades práticas em Python e C++. Esse primeiro contato com lógica de programação e a integração entre hardware e software foi essencial para consolidar meu interesse na área de tecnologia e desenvolvimento."
     }
