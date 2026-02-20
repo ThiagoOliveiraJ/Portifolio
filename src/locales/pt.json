@@ -9,7 +9,7 @@
   "academic_items": [
     {
       "linkImg": "https://www.pucminas.br/PucVirtual/Graduacao/Paginas/Analise-e-Desenvolvimento-de-Sistemas-Tecnologo.aspx",
-      "urlImg": "public/img/logo_puc.png",
+      "urlImg": "/img/logo_puc.png",
       "collegeName": "Puc Minas",
       "courseName": "Análise e Desenvolvimento de Sistemas",
       "status": "Cursando",
@@ -18,7 +18,7 @@
     },
     {
       "linkImg": "https://programadoresdoamanha.org.br/pt",
-      "urlImg": "public/img/logo_pda.jpeg",
+      "urlImg": "/img/logo_pda.jpeg",
       "collegeName": "Programadores do Amanhã",
       "courseName": "Desenvolvimento Web FullStack",
       "graduationDate": "2025-07-14 - 2027-08-18",
@@ -26,7 +26,7 @@
     },
     {
       "linkImg": "https://sistemadivinaprovidencia.org/",
-      "urlImg": "public/img/logo_SDP.jpeg",
+      "urlImg": "/img/logo_SDP.jpeg",
       "collegeName": "Cetaí Santo André Apóstolo",
       "courseName": "Robótica",
       "status": "Concluído",
@@ -37,7 +37,7 @@
   "experience_items": [
         {
             "linkImg": "https://remopt.com.br/pt/home",
-            "urlImg": "./src/assets/img/remopt_logo.jpeg",
+            "urlImg": "/img/remopt_logo.jpeg",
             "CorporationName": "Remopt",
             "role": "Estágio de Desenvolvimento",
             "ExperienceDate": "2025-02-18 - O Momento",
@@ -47,22 +47,22 @@
   "project_items":[
     {
       "projectName": "Mente Saudável",
-      "urlImg":"./src/assets/img/mente_saudavel_thumb.jpeg",
+      "urlImg":"/img/mente_saudavel_thumb.jpeg",
       "description": "Aplicação web voltada para o bem-estar físico e mental, utilizando React e Vite para criar uma interface dinâmica e responsiva. A aplicação consome minha API, construída com Node.js e Express, que fornece dicas em tempo real. Além disso, utilizei Splide JS para criar carrosséis de navegação suave e Axios para integrar as requisições HTTP.",
       "tags":["React", "Express", "Node"],
       "linksBtns":["https://github.com/ThiagoOliveiraJ/MenteSaudavel", "https://mente-saudavel.euthiago.com/"]
     },
     {
       "projectName": "Previsão do Tempo",
-      "urlImg":"./src/assets/img/previsao_do_tempo_thumb.jpeg",
+      "urlImg":"/img/previsao_do_tempo_thumb.jpeg",
       "description": "Aplicação web voltada a fornecer previsões do tempo com base no nome da cidade.  A aplicação consome a API de previsão do tempo do GoWeather. retornando temperatura e velocidade do vento.",
       "tags":["HTML5", "CSS3", "Jquery"],
       "linksBtns":["https://github.com/ThiagoOliveiraJ/ProjetoPrevisaoTempo", "https://fascinating-donut-3c31ea.netlify.app/"]
     },
     {
       "projectName": "Landing Page DLCE Engenharia",
-      "urlImg":"./src/assets/img/PREVIEW_DLCE-11-30-2025_11_49_AM.png",
-      "description": "Freelance landing page responsiva utilizando HTML, CSS e JavaScript. Foquei em performance, usabilidade e adaptação para múltiplos dispositivos. Mantive comunicação direta com o cliente para levantamento de requisitos e validação das entregas. Como resultado, a empresa registrou um aumento estimado de 67% nas conversões orgânicas após a publicação da nova landing page, devido à melhor estrutura visual e navegabilidade.",
+      "urlImg":"/img/PREVIEW_DLCE-11-30-2025_11_49_AM.png",
+      "description": "Freelance landing page responsiva utilizando HTML, CSS e JavaScript. Foquei em performance, usabilidade e adaptação para múltiplos dispositivos. Mantive comunicação direta com o cliente para levantamento de requisitos e validação das entregas. Como resultado, a empresa registrou um aumento estimado de 67% nas conversões orgânicas após a ação da nova landing page, devido à melhor estrutura visual e navegabilidade.",
       "tags":["HTML5", "CSS3", "JavaScript"],
       "linksBtns":["", "https://dlce.com.br/"]
     }

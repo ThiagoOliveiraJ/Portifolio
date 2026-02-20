@@ -38,7 +38,7 @@ Este repositório abriga meu portfólio pessoal como Desenvolvedor Front-end, co
 
 ## ▶️ Demonstração
 
-Acesse a versão publicada do portfólio:  
+Acesse a versão ada do portfólio:  
 🔗 [euthiago.com](https://euthiago.com) 
 
 ## 🧪 Como Rodar Localmente
@@ -62,10 +62,10 @@ npm dev run
 
 ## 📸 Preview do Projeto
 
-![Tela de Inicio](./src/assets/img/preview/image.png)
-![Outra Seção](./src/assets/img/preview/image2.png)
-![Outra Seção](./src/assets/img/preview/image3.png)
-![Mobile](./src/assets/img/preview/mobile.png)
+![Tela de Inicio](/img/preview/image.png)
+![Outra Seção](/img/preview/image2.png)
+![Outra Seção](/img/preview/image3.png)
+![Mobile](/img/preview/mobile.png)
 
 Para dúvidas ou feedback ou contato:
 
